@@ -34,7 +34,7 @@ public class PolicyService {
 	}
 
 	public Policy generateDummyPolicy() {
-		return new Policy(1, "Vikul", "Individual", 10000, "10-Sep-2021", "10-Sep-2022");
+		return new Policy(1, "Mukesh", "Individual", 10000, "10-Sep-2021", "10-Sep-2022");
 	}
 
 	public Policy registerPolicy(Policy policy) {
